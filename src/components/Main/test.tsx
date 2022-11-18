@@ -12,4 +12,10 @@ describe('<Main />', () => {
 
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('should render the correctly color', () => {
+    const { container } = render(<Main />);
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#131316' });
+  });
 });
