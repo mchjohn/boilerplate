@@ -1,7 +1,7 @@
 export const Main = () => {
   return (
     <main>
-      <h1>React Advanced</h1>
+      <h1>Advanced React</h1>
     </main>
   );
 };
