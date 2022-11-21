@@ -81,7 +81,7 @@ exports[`<Main /> should render the heading 1`] = `
   <h2
     class="c4"
   >
-    TypeScript, React, NextJs e Styled Components
+    TypeScript, React, NextJs, Styled Components e StoryBook
   </h2>
   <img
     alt="Imagem de um terminal estilo do MacOs"

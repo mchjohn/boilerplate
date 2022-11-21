@@ -1,6 +1,9 @@
 import * as S from './styles';
 
-export const Main = () => {
+export const Main = ({
+  title = 'Advanced React - Boilerplate',
+  description = 'TypeScript, React, NextJs, Styled Components e StoryBook'
+}) => {
   return (
     <S.Wrapper>
       <S.WrapperLogo>
@@ -9,12 +12,10 @@ export const Main = () => {
           alt="Logo do React, imagem de um átomo"
         />
 
-        <S.Title>Advanced React - Boilerplate</S.Title>
+        <S.Title>{title}</S.Title>
       </S.WrapperLogo>
 
-      <S.Description>
-        TypeScript, React, NextJs e Styled Components
-      </S.Description>
+      <S.Description>{description}</S.Description>
 
       <S.Illustration
         src="/img/icon-512.svg"

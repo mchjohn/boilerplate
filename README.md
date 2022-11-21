@@ -8,3 +8,4 @@ Boilerplate with:
 - Prettier
 - Husky
 - Lint-staged
+- StoryBook
