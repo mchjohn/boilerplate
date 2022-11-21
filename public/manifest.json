@@ -1,0 +1,21 @@
+{
+  "name": "Boilerplate - Advanced React",
+  "short_name": "Boilerplate AR",
+  "icons": [
+    {
+      "src": "/img/icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#131316",
+  "description": "Boilerplate with: React, NextJs, Styled Components, GraphQl, Jest, React Testing Library, Eslint, Prettier, Husky, Lint-staged, StoryBook",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#131316"
+}
